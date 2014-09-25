@@ -40,7 +40,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dequeButton = new System.Windows.Forms.Button();
-            this.dComplain = new System.Windows.Forms.TextBox();
+            this.dComplainTxtBox = new System.Windows.Forms.TextBox();
             this.dNameTxtBox = new System.Windows.Forms.TextBox();
             this.myListView = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -120,7 +120,7 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.dequeButton);
-            this.groupBox2.Controls.Add(this.dComplain);
+            this.groupBox2.Controls.Add(this.dComplainTxtBox);
             this.groupBox2.Controls.Add(this.dNameTxtBox);
             this.groupBox2.Controls.Add(this.dSerialTxtBox);
             this.groupBox2.Location = new System.Drawing.Point(493, 38);
@@ -165,14 +165,15 @@
             this.dequeButton.TabIndex = 1;
             this.dequeButton.Text = "Deque";
             this.dequeButton.UseVisualStyleBackColor = true;
+            this.dequeButton.Click += new System.EventHandler(this.dequeButton_Click);
             // 
-            // dComplain
+            // dComplainTxtBox
             // 
-            this.dComplain.Location = new System.Drawing.Point(87, 103);
-            this.dComplain.Multiline = true;
-            this.dComplain.Name = "dComplain";
-            this.dComplain.Size = new System.Drawing.Size(250, 45);
-            this.dComplain.TabIndex = 0;
+            this.dComplainTxtBox.Location = new System.Drawing.Point(87, 103);
+            this.dComplainTxtBox.Multiline = true;
+            this.dComplainTxtBox.Name = "dComplainTxtBox";
+            this.dComplainTxtBox.Size = new System.Drawing.Size(250, 45);
+            this.dComplainTxtBox.TabIndex = 0;
             // 
             // dNameTxtBox
             // 
@@ -240,7 +241,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button dequeButton;
-        private System.Windows.Forms.TextBox dComplain;
+        private System.Windows.Forms.TextBox dComplainTxtBox;
         private System.Windows.Forms.TextBox dNameTxtBox;
         private System.Windows.Forms.ListView myListView;
         private System.Windows.Forms.ColumnHeader columnHeader1;
