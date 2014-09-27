@@ -1,0 +1,16 @@
+E:\C# Practice\AccountOperationApp\AccountOperationApp\bin\Debug\AccountOperationApp.exe.config
+E:\C# Practice\AccountOperationApp\AccountOperationApp\bin\Debug\AccountOperationApp.exe
+E:\C# Practice\AccountOperationApp\AccountOperationApp\bin\Debug\AccountOperationApp.pdb
+E:\C# Practice\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.AccountUI.resources
+E:\C# Practice\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.Properties.Resources.resources
+E:\C# Practice\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.csproj.GenerateResource.Cache
+E:\C# Practice\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.exe
+E:\C# Practice\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.pdb
+C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\bin\Debug\AccountOperationApp.exe.config
+C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.exe
+C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.pdb
+C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\bin\Debug\AccountOperationApp.exe
+C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\bin\Debug\AccountOperationApp.pdb
+C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.AccountUI.resources
+C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.Properties.Resources.resources
+C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.csproj.GenerateResource.Cache
