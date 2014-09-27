@@ -13,7 +13,50 @@ namespace AccountOperationApp
         private string name;
         private double balance=0;
 
-        public void SetName(string name)
+        public string Number
+        {
+            set
+            {
+
+                number = value;
+            }
+
+            get
+            {
+
+                return number;
+            }
+
+        }
+        public string Name
+        {
+            set
+            {
+
+                name = value;
+            }
+
+            get
+            {
+
+                return name;
+            }
+
+        }
+
+        public double Balance
+        {
+            
+            get
+            {
+
+                return balance;
+            }
+
+        }
+
+
+        /* public void SetName(string name)
         {
             this.name = name;
         }
@@ -35,7 +78,7 @@ namespace AccountOperationApp
         {
             return balance;
         }
-
+        */
         public void Deposite(double anAmount)
         {
             balance += anAmount;

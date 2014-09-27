@@ -29,15 +29,15 @@ namespace AccountOperationApp
             {
                 anAccount=new Account();
                 createButton.Enabled = false;
-                anAccount.SetName(customerNameTxtBox.Text);
-                anAccount.SetNumber(acNumberTxtBox.Text);
+                anAccount.Name = customerNameTxtBox.Text;
+                anAccount.Number = acNumberTxtBox.Text;
             }
             
         }
 
         private void depositeButton_Click(object sender, EventArgs e)
         {
-            if (anAccount.GetName() != null && anAccount.GetNumber() != null)
+            if (anAccount.Name != null && anAccount.Number != null)
             {
                 if (amountTxtBox.Text!=string.Empty)
                 {
@@ -59,7 +59,7 @@ namespace AccountOperationApp
 
         private void withdrawButton_Click(object sender, EventArgs e)
         {
-            if (anAccount.GetName() != null && anAccount.GetNumber() != null)
+            if (anAccount.Name != null && anAccount.Number != null)
             {
                 if (amountTxtBox.Text!=string.Empty)
                 {
@@ -82,9 +82,9 @@ namespace AccountOperationApp
         {
             if (createButton.Enabled == false)
             {
-                string name = anAccount.GetName();
-                string accNo = anAccount.GetNumber();
-                double balance = anAccount.GetBalance();
+                string name = anAccount.Name;
+                string accNo = anAccount.Number;
+                double balance = anAccount.Balance;
                 MessageBox.Show(name + " your account number: " + accNo + " ant it's balance is: " + balance.ToString());
             }
 

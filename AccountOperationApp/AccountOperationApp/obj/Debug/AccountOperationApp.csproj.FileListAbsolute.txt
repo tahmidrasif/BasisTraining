@@ -14,3 +14,4 @@ C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\bin\Debug\AccountO
 C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.AccountUI.resources
 C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.Properties.Resources.resources
 C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.csproj.GenerateResource.Cache
+C:\Users\PC21\Desktop\AccountOperationApp\AccountOperationApp\obj\Debug\AccountOperationApp.csprojResolveAssemblyReference.cache
