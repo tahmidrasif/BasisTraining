@@ -1,0 +1,8 @@
+H:\27 sep practice\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.exe.config
+H:\27 sep practice\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.exe
+H:\27 sep practice\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.pdb
+H:\27 sep practice\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.CalculationUi.resources
+H:\27 sep practice\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.Properties.Resources.resources
+H:\27 sep practice\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.GenerateResource.Cache
+H:\27 sep practice\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.exe
+H:\27 sep practice\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.pdb

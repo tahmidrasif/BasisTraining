@@ -1,0 +1,6 @@
+H:\26 September Practice\PersonApp\PersonApp\bin\Debug\PersonApp.pdb
+H:\26 September Practice\PersonApp\PersonApp\obj\Debug\PersonApp.pdb
+H:\26 September Practice\PersonApp\PersonApp\bin\Debug\PersonApp.exe
+H:\26 September Practice\PersonApp\PersonApp\obj\Debug\PersonApp.exe
+H:\26 September Practice\PersonApp\PersonApp\obj\Debug\PersonApp.PersonUI.resources
+H:\26 September Practice\PersonApp\PersonApp\obj\Debug\PersonApp.csproj.GenerateResource.Cache
