@@ -62,7 +62,7 @@
             this.dSerialTxtBox.Location = new System.Drawing.Point(87, 19);
             this.dSerialTxtBox.Name = "dSerialTxtBox";
             this.dSerialTxtBox.Size = new System.Drawing.Size(100, 20);
-            this.dSerialTxtBox.TabIndex = 0;
+            this.dSerialTxtBox.TabIndex = 3;
             // 
             // groupBox1
             // 
@@ -101,7 +101,7 @@
             this.enqueButton.Location = new System.Drawing.Point(109, 145);
             this.enqueButton.Name = "enqueButton";
             this.enqueButton.Size = new System.Drawing.Size(120, 23);
-            this.enqueButton.TabIndex = 1;
+            this.enqueButton.TabIndex = 2;
             this.enqueButton.Text = "Enque";
             this.enqueButton.UseVisualStyleBackColor = true;
             this.enqueButton.Click += new System.EventHandler(this.enqueButton_Click);
@@ -112,7 +112,7 @@
             this.eComplainTxtBox.Multiline = true;
             this.eComplainTxtBox.Name = "eComplainTxtBox";
             this.eComplainTxtBox.Size = new System.Drawing.Size(250, 45);
-            this.eComplainTxtBox.TabIndex = 0;
+            this.eComplainTxtBox.TabIndex = 1;
             // 
             // groupBox2
             // 
@@ -162,7 +162,7 @@
             this.dequeButton.Location = new System.Drawing.Point(286, 19);
             this.dequeButton.Name = "dequeButton";
             this.dequeButton.Size = new System.Drawing.Size(120, 23);
-            this.dequeButton.TabIndex = 1;
+            this.dequeButton.TabIndex = 6;
             this.dequeButton.Text = "Deque";
             this.dequeButton.UseVisualStyleBackColor = true;
             this.dequeButton.Click += new System.EventHandler(this.dequeButton_Click);
@@ -173,14 +173,14 @@
             this.dComplainTxtBox.Multiline = true;
             this.dComplainTxtBox.Name = "dComplainTxtBox";
             this.dComplainTxtBox.Size = new System.Drawing.Size(250, 45);
-            this.dComplainTxtBox.TabIndex = 0;
+            this.dComplainTxtBox.TabIndex = 5;
             // 
             // dNameTxtBox
             // 
             this.dNameTxtBox.Location = new System.Drawing.Point(87, 65);
             this.dNameTxtBox.Name = "dNameTxtBox";
             this.dNameTxtBox.Size = new System.Drawing.Size(250, 20);
-            this.dNameTxtBox.TabIndex = 0;
+            this.dNameTxtBox.TabIndex = 4;
             // 
             // myListView
             // 

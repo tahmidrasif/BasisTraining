@@ -8,9 +8,46 @@ namespace QueueManagementApp
 {
     public class Customer
     {
-        public int serial;
-        public string name;
-        public string complain;
+        private int serial;
+        private string name;
+        private string complain;
+
+        public int Serial
+        {
+            get
+            {
+                return serial;
+            }
+            set
+            {
+                serial = value;
+            }
+        }
+
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+
+            set
+            {
+                name = value;
+            }
+        }
+
+        public string Complain
+        {
+            get
+            {
+                return complain;
+            }
+            set
+            {
+                complain = value;
+            }
+        }
 
     }
 }
