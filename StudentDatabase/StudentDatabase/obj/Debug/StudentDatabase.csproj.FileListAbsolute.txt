@@ -1,0 +1,9 @@
+E:\C# Practice\StudentDatabase\StudentDatabase\bin\Debug\StudentDatabase.exe.config
+E:\C# Practice\StudentDatabase\StudentDatabase\bin\Debug\StudentDatabase.exe
+E:\C# Practice\StudentDatabase\StudentDatabase\bin\Debug\StudentDatabase.pdb
+E:\C# Practice\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.csprojResolveAssemblyReference.cache
+E:\C# Practice\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.StudentDatabaseUI.resources
+E:\C# Practice\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.Properties.Resources.resources
+E:\C# Practice\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.csproj.GenerateResource.Cache
+E:\C# Practice\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.exe
+E:\C# Practice\StudentDatabase\StudentDatabase\obj\Debug\StudentDatabase.pdb
