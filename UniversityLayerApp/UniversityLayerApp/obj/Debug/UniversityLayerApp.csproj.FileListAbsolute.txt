@@ -1,0 +1,9 @@
+c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.exe.config
+c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.csprojResolveAssemblyReference.cache
+c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.Properties.Resources.resources
+c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.UniversityUI.resources
+c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.csproj.GenerateResource.Cache
+c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.exe
+c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.pdb
+c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.exe
+c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.pdb
