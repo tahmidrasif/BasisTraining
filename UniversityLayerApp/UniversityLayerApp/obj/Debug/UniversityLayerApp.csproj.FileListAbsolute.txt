@@ -7,3 +7,6 @@ c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\Universi
 c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.pdb
 c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.exe
 c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.pdb
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.exe.config
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.exe
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.pdb
