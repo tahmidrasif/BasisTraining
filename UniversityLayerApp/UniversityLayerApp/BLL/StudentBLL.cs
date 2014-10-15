@@ -10,7 +10,12 @@ namespace UniversityLayerApp.BLL
 {
     class StudentBLL
     {
-         StudentGateway aStudentGateway = new StudentGateway();
+        private StudentGateway aStudentGateway;
+
+        public StudentBLL()
+        {
+            aStudentGateway = new StudentGateway();
+        }
 
         public string Save(Student aStudent)
         {
@@ -45,5 +50,14 @@ namespace UniversityLayerApp.BLL
         {
             return aStudentGateway.CheckEmail(aStudent);
         }
+
+        public List<Student> RetriveData()
+        {
+            List<Student> students= new List<Student>();
+            students= aStudentGateway.RetriveData();
+            return students;
+        }
+
+      
     }
 }

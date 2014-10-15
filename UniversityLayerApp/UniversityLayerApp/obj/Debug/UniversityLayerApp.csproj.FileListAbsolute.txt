@@ -10,3 +10,9 @@ c:\users\rasif\documents\visual studio 2013\Projects\UniversityLayerApp\Universi
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.exe.config
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.exe
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.pdb
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.exe
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.pdb
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.Properties.Resources.resources
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.UniversityUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.csproj.GenerateResource.Cache
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.csprojResolveAssemblyReference.cache

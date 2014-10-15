@@ -14,9 +14,12 @@ namespace UniversityLayerApp
 {
     public partial class UniversityUI : Form
     {
+        private StudentBLL aStudentBll;
+
         public UniversityUI()
         {
             InitializeComponent();
+            ShowInGridView();
         }
 
         private void saveButton_Click(object sender, EventArgs e)
@@ -33,10 +36,19 @@ namespace UniversityLayerApp
             aStudent.Email = email;
             aStudent.Address = address;
 
-            StudentBLL aStudentBll= new StudentBLL();
+            aStudentBll = new StudentBLL();
             string confirmationMessege=aStudentBll.Save(aStudent);
             MessageBox.Show(confirmationMessege);
+            ShowInGridView();
 
+        }
+
+        private void ShowInGridView()
+        {
+            aStudentBll=new StudentBLL();
+            List<Student> students= new List<Student>();
+            students = aStudentBll.RetriveData();
+            studentGridView.DataSource = students;
         }
     }
 }

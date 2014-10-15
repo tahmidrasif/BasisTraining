@@ -13,6 +13,8 @@ namespace UniversityLayerApp.DLL.GATEWAY
        
         private string con = @"Data Source=RASIF-PC;Initial Catalog=UniversiyDatabase;Integrated Security=True";
         private SqlConnection connection;
+        private SqlCommand aCommand;
+        private SqlDataReader aReader;
 
         public StudentGateway()
         {
@@ -27,7 +29,7 @@ namespace UniversityLayerApp.DLL.GATEWAY
             //*****Database Operation Starts********
             connection.Open();
 
-            SqlCommand aCommand = new SqlCommand(query, connection);
+            aCommand = new SqlCommand(query, connection);
 
             int isAffected = aCommand.ExecuteNonQuery();
             
@@ -46,20 +48,50 @@ namespace UniversityLayerApp.DLL.GATEWAY
             //*****Database Operation Starts********
             connection.Open();
 
-            SqlCommand aCommand = new SqlCommand(query, connection);
+            aCommand = new SqlCommand(query, connection);
 
-            SqlDataReader aReader = aCommand.ExecuteReader();
+            aReader = aCommand.ExecuteReader();
             if (aReader.HasRows)
             {
                 return false;
             }
-            connection.Close();
 
+            connection.Close();
+            //*****Database Operation Ends********
             return true;
 
+            
+
+
+        }
+
+        public List<Student> RetriveData()
+        {
+            string query = string.Format("SELECT * FROM StudentInfo");
+            List<Student> students=new List<Student>();
+
+            //*****Database Operation Starts********
+            connection.Open();
+
+            aCommand = new SqlCommand(query, connection);
+
+            aReader = aCommand.ExecuteReader();
+            if (aReader.HasRows)
+            {
+                while (aReader.Read())
+                {
+                    Student aStudent = new Student();
+                    aStudent.ID = (int)aReader[0];
+                    aStudent.StudentName = aReader[1].ToString();
+                    aStudent.Email = aReader[2].ToString();
+                    aStudent.Address = aReader[3].ToString();
+                    students.Add(aStudent); 
+                }
+            }
+            
+            connection.Close();
             //*****Database Operation Ends********
-
-
+            return students;
         }
     }
 }

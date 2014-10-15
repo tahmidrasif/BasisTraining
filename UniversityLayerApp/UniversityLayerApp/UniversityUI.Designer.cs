@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.studentGridView = new System.Windows.Forms.DataGridView();
-            this.showButton = new System.Windows.Forms.Button();
             this.saveButton = new System.Windows.Forms.Button();
             this.addressTextBox = new System.Windows.Forms.TextBox();
             this.emailTextBox = new System.Windows.Forms.TextBox();
@@ -48,18 +47,9 @@
             this.studentGridView.Size = new System.Drawing.Size(363, 172);
             this.studentGridView.TabIndex = 12;
             // 
-            // showButton
-            // 
-            this.showButton.Location = new System.Drawing.Point(281, 141);
-            this.showButton.Name = "showButton";
-            this.showButton.Size = new System.Drawing.Size(75, 23);
-            this.showButton.TabIndex = 10;
-            this.showButton.Text = "Show";
-            this.showButton.UseVisualStyleBackColor = true;
-            // 
             // saveButton
             // 
-            this.saveButton.Location = new System.Drawing.Point(111, 141);
+            this.saveButton.Location = new System.Drawing.Point(189, 141);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(75, 23);
             this.saveButton.TabIndex = 11;
@@ -121,7 +111,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(396, 376);
             this.Controls.Add(this.studentGridView);
-            this.Controls.Add(this.showButton);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.addressTextBox);
             this.Controls.Add(this.emailTextBox);
@@ -140,7 +129,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView studentGridView;
-        private System.Windows.Forms.Button showButton;
         private System.Windows.Forms.Button saveButton;
         private System.Windows.Forms.TextBox addressTextBox;
         private System.Windows.Forms.TextBox emailTextBox;
