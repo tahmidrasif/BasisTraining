@@ -1,0 +1,9 @@
+E:\C# Practice\DepertmentApp\DepertmentApp\bin\Debug\DepertmentApp.exe.config
+E:\C# Practice\DepertmentApp\DepertmentApp\bin\Debug\DepertmentApp.exe
+E:\C# Practice\DepertmentApp\DepertmentApp\bin\Debug\DepertmentApp.pdb
+E:\C# Practice\DepertmentApp\DepertmentApp\obj\Debug\DepertmentApp.csprojResolveAssemblyReference.cache
+E:\C# Practice\DepertmentApp\DepertmentApp\obj\Debug\DepertmentApp.Properties.Resources.resources
+E:\C# Practice\DepertmentApp\DepertmentApp\obj\Debug\DepertmentApp.csproj.GenerateResource.Cache
+E:\C# Practice\DepertmentApp\DepertmentApp\obj\Debug\DepertmentApp.exe
+E:\C# Practice\DepertmentApp\DepertmentApp\obj\Debug\DepertmentApp.pdb
+E:\C# Practice\DepertmentApp\DepertmentApp\obj\Debug\DepertmentApp.DepertmentUI.resources
