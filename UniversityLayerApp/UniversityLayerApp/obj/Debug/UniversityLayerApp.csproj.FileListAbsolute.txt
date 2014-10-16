@@ -13,6 +13,7 @@ E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\ob
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.exe
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.pdb
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.Properties.Resources.resources
-E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.UniversityUI.resources
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.csproj.GenerateResource.Cache
-E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.csprojResolveAssemblyReference.cache
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.UniversityEntryUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\DepertmentApp.DepertmentEntryUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.StudentEntryUI.resources
