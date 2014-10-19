@@ -1,10 +1,10 @@
-﻿/****************
+﻿using System.Windows.Forms;
+/*
  * 
- * This is Student Information App with Three Layer Architechture only CourseEnrollmentForm
  * 
+ * This is Version 1.1 of StudentInfoApp With Layer Architechture bug fix GetAllCourseInformation in ComboBox
+ *  
  */
-
-using System.Windows.Forms;
 
 namespace BootCampApp.UserInterface
 {

@@ -25,11 +25,12 @@ namespace BootCampApp.UserInterface
             string regNo = regnoTextBox.Text;
             aCourseEnrollment = new CourseEnrollment();
             aCourseEnrollmentBll = new CourseEnrollmentBll();
+            CourseBll aCourseBll=new CourseBll();
 
             aCourseEnrollment= aCourseEnrollmentBll.CheckRegNo(regNo);
             nameTextBox.Text = aCourseEnrollment.AStudent.Name;
             emailTextBox.Text = aCourseEnrollment.AStudent.Email;
-            courseComboBox.DataSource = aCourseEnrollment.Courses;
+            courseComboBox.DataSource = aCourseBll.GetAllCourse();
             courseComboBox.DisplayMember = "CourseTitle";
             courseComboBox.ValueMember = "CourseId";
             enrolledCoursesDataGridView.DataSource = aCourseEnrollmentBll.EnrollmentGridevieDataPicker(aCourseEnrollment.AStudent.RegNo);

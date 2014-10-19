@@ -65,37 +65,37 @@ namespace BootCampApp.DataAccessLayer.GateWay
                 while (aReader.Read())
                 {
                     Course aCourse = new Course();
-                    aCourse.CourseId = (int) aReader[1];
+                    aCourse.CourseId = (int)aReader[1];
                     aCourse.CourseTitle = aReader[2].ToString();
                     aCourse.CourseName = aReader[3].ToString();
                     aCourseEnrollment.Courses.Add(aCourse);
                 }
             }
-         
-            else 
-            {
-                aConnection.Close();
 
-                string query2 = "SELECT * FROM  t_Course";
-                
-                aConnection.Open();
+            //else
+            //{
+            //    aConnection.Close();
 
-                aCommand = new SqlCommand(query2, aConnection);
+            //    string query2 = "SELECT * FROM  t_Course";
 
-                aReader = aCommand.ExecuteReader();
-                if (aReader.HasRows)
-                {
-                    while (aReader.Read())
-                    {
-                        Course aCourse = new Course();
-                        aCourse.CourseId = (int) aReader[0];
-                        aCourse.CourseTitle = aReader[1].ToString();
-                        aCourse.CourseName = aReader[2].ToString();
-                        aCourseEnrollment.Courses.Add(aCourse);
-                    }
-                }
+            //    aConnection.Open();
 
-            }
+            //    aCommand = new SqlCommand(query2, aConnection);
+
+            //    aReader = aCommand.ExecuteReader();
+            //    if (aReader.HasRows)
+            //    {
+            //        while (aReader.Read())
+            //        {
+            //            Course aCourse = new Course();
+            //            aCourse.CourseId = (int)aReader[0];
+            //            aCourse.CourseTitle = aReader[1].ToString();
+            //            aCourse.CourseName = aReader[2].ToString();
+            //            aCourseEnrollment.Courses.Add(aCourse);
+            //        }
+            //    }
+
+            //}
 
             aConnection.Close();
             return aCourseEnrollment;
@@ -117,7 +117,7 @@ namespace BootCampApp.DataAccessLayer.GateWay
                 while (aReader.Read())
                 {
                     Course aCourse = new Course();
-                    aCourse.CourseId = (int) aReader[0];
+                    aCourse.CourseId = (int)aReader[0];
                     aCourse.CourseTitle = aReader[1].ToString();
                     aCourse.CourseName = aReader[2].ToString();
                     aCourses.Add(aCourse);

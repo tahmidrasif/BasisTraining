@@ -24,14 +24,11 @@ C:\Users\Rasif\Desktop\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csprojResol
 E:\C# Practice\BootCampApp\BootCampApp\bin\Debug\BootCampApp.exe.config
 E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.exe
 E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.pdb
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\bin\Debug\BootCampApp.exe.config
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\obj\Debug\BootCampApp.exe
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\obj\Debug\BootCampApp.pdb
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\bin\Debug\BootCampApp.exe
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\bin\Debug\BootCampApp.pdb
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csprojResolveAssemblyReference.cache
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\obj\Debug\BootCampApp.Properties.Resources.resources
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.CourseEnrollmentUI.resources
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.ResultEntryUI.resources
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.ResultSheetUI.resources
-E:\BasisGit\BasisTraining\BasisTraining\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csproj.GenerateResource.Cache
+E:\C# Practice\BootCampApp\BootCampApp\bin\Debug\BootCampApp.exe
+E:\C# Practice\BootCampApp\BootCampApp\bin\Debug\BootCampApp.pdb
+E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csprojResolveAssemblyReference.cache
+E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.Properties.Resources.resources
+E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.CourseEnrollmentUI.resources
+E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.ResultEntryUI.resources
+E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.ResultSheetUI.resources
+E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csproj.GenerateResource.Cache
