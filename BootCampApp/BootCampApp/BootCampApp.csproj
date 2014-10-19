@@ -46,10 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessLogicLayer\CourseBll.cs" />
+    <Compile Include="BusinessLogicLayer\CourseEnrollmentBll.cs" />
     <Compile Include="BusinessLogicLayer\StudentBll.cs" />
-    <Compile Include="Course.cs" />
-    <Compile Include="CourseEnrollment.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="DataAccessLayer\DataAccessObject\Course.cs" />
+    <Compile Include="DataAccessLayer\DataAccessObject\CourseEnrollment.cs" />
+    <Compile Include="DataAccessLayer\DataAccessObject\Student.cs" />
+    <Compile Include="DataAccessLayer\GateWay\CourseEnrollmentGateway.cs" />
     <Compile Include="DataAccessLayer\GateWay\CourseGateWay.cs" />
     <Compile Include="DataAccessLayer\GateWay\StudentGateWay.cs" />
     <Compile Include="UserInterface\CourseEnrollmentUI.cs">
@@ -109,9 +111,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DataAccessLayer\DataAccessObject\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
