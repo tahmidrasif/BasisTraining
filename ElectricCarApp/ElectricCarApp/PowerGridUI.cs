@@ -12,7 +12,7 @@ namespace ElectricCarApp
 {
     public partial class PowerGridUI : Form
     {
-        private Vehicle aVehicle = new Vehicle();
+        private Vehicle aVehicle;
         private PowerGrid aGrid = new PowerGrid();
 
         public PowerGridUI()
@@ -22,11 +22,13 @@ namespace ElectricCarApp
 
         private void registryButton_Click(object sender, EventArgs e)
         {
+            aVehicle = new Vehicle();
             
-            
-            //aVehicle.name = vehicleNameTextBox.Text;
-            //aVehicle.regNo = regNoTextBox.Text;
-            //aVehicle.type = vehicleTypeTextBox.Text;
+            aVehicle.name = vehicleNameTextBox.Text;
+            aVehicle.regNo = regNoTextBox.Text;
+            aVehicle.type = vehicleTypeTextBox.Text;
+            aVehicle.stateOfCharge = Convert.ToDouble(stateofChargeTextBox.Text);
+            aVehicle.chargingTime = Convert.ToDouble(chargingTimeTextBox.Text);
             //bool available = aGrid.CheckIfNotInTheQueue(aVehicle);
             //if (available)
             //{
@@ -35,17 +37,14 @@ namespace ElectricCarApp
             //}
             //else
             //{
-    
+            //    MessageBox.Show("The Car is already in the queue");
             //}
-
+            string msg = aGrid.Check(aVehicle);
+            MessageBox.Show(msg);
+            ShowInGridView(aVehicle);
         }
 
-        private void enqueueButton_Click(object sender, EventArgs e)
-        {
-           
-
-          
-        }
+       
 
         private void ShowInGridView(Vehicle aVehicle)
         {
@@ -53,6 +52,8 @@ namespace ElectricCarApp
             anItem.Text = aVehicle.name;
             anItem.SubItems.Add(aVehicle.type);
             anItem.SubItems.Add(aVehicle.regNo);
+            anItem.SubItems.Add(aVehicle.stateOfCharge.ToString());
+            anItem.SubItems.Add(aVehicle.timeToRecharge.ToString());
            
             powerGirdListView.Items.Add(anItem);
         }

@@ -15,6 +15,7 @@ namespace UniversityLayerApp
         public UniversityEntryUI()
         {
             InitializeComponent();
+            
         }
 
         private void studentEntryButton_Click(object sender, EventArgs e)

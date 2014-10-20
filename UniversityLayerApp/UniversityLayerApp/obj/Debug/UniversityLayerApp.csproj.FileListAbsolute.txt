@@ -17,3 +17,4 @@ E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\ob
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.UniversityEntryUI.resources
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\DepertmentApp.DepertmentEntryUI.resources
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.StudentEntryUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.csprojResolveAssemblyReference.cache

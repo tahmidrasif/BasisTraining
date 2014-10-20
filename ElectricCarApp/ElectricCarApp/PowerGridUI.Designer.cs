@@ -40,7 +40,6 @@
             this.chargingTimeTextBox = new System.Windows.Forms.TextBox();
             this.registryButton = new System.Windows.Forms.Button();
             this.stateofChargeTextBox = new System.Windows.Forms.TextBox();
-            this.enqueueButton = new System.Windows.Forms.Button();
             this.powerGirdListView = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -116,31 +115,31 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(8, 218);
+            this.label4.Location = new System.Drawing.Point(8, 176);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 13);
+            this.label4.Size = new System.Drawing.Size(100, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "State Of Charge";
+            this.label4.Text = "State Of Charge (%)";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 263);
+            this.label5.Location = new System.Drawing.Point(10, 221);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 13);
+            this.label5.Size = new System.Drawing.Size(120, 13);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Charging Time";
+            this.label5.Text = "Charging Time (minutes)";
             // 
             // chargingTimeTextBox
             // 
-            this.chargingTimeTextBox.Location = new System.Drawing.Point(154, 256);
+            this.chargingTimeTextBox.Location = new System.Drawing.Point(154, 214);
             this.chargingTimeTextBox.Name = "chargingTimeTextBox";
             this.chargingTimeTextBox.Size = new System.Drawing.Size(251, 20);
             this.chargingTimeTextBox.TabIndex = 1;
             // 
             // registryButton
             // 
-            this.registryButton.Location = new System.Drawing.Point(210, 160);
+            this.registryButton.Location = new System.Drawing.Point(202, 271);
             this.registryButton.Name = "registryButton";
             this.registryButton.Size = new System.Drawing.Size(75, 23);
             this.registryButton.TabIndex = 5;
@@ -150,21 +149,10 @@
             // 
             // stateofChargeTextBox
             // 
-            this.stateofChargeTextBox.Location = new System.Drawing.Point(154, 215);
+            this.stateofChargeTextBox.Location = new System.Drawing.Point(154, 173);
             this.stateofChargeTextBox.Name = "stateofChargeTextBox";
             this.stateofChargeTextBox.Size = new System.Drawing.Size(251, 20);
             this.stateofChargeTextBox.TabIndex = 6;
-            // 
-            // enqueueButton
-            // 
-            this.enqueueButton.Enabled = false;
-            this.enqueueButton.Location = new System.Drawing.Point(210, 309);
-            this.enqueueButton.Name = "enqueueButton";
-            this.enqueueButton.Size = new System.Drawing.Size(75, 23);
-            this.enqueueButton.TabIndex = 5;
-            this.enqueueButton.Text = "Enqueue";
-            this.enqueueButton.UseVisualStyleBackColor = true;
-            this.enqueueButton.Click += new System.EventHandler(this.enqueueButton_Click);
             // 
             // powerGirdListView
             // 
@@ -192,6 +180,7 @@
             // columnHeader3
             // 
             this.columnHeader3.Text = "Registration Number";
+            this.columnHeader3.Width = 126;
             // 
             // columnHeader5
             // 
@@ -200,17 +189,16 @@
             // 
             // columnHeader6
             // 
-            this.columnHeader6.Text = "Charging Time";
+            this.columnHeader6.Text = "Time To Recharge";
             this.columnHeader6.Width = 163;
             // 
             // PowerGridUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(939, 378);
+            this.ClientSize = new System.Drawing.Size(939, 309);
             this.Controls.Add(this.powerGirdListView);
             this.Controls.Add(this.stateofChargeTextBox);
-            this.Controls.Add(this.enqueueButton);
             this.Controls.Add(this.registryButton);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -218,7 +206,6 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "PowerGridUI";
             this.Text = "Electric Car";
-          
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -240,7 +227,6 @@
         private System.Windows.Forms.TextBox chargingTimeTextBox;
         private System.Windows.Forms.Button registryButton;
         private System.Windows.Forms.TextBox stateofChargeTextBox;
-        private System.Windows.Forms.Button enqueueButton;
         private System.Windows.Forms.ListView powerGirdListView;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
