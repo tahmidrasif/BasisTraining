@@ -1,0 +1,23 @@
+H:\20-Oct-Practice\UniversityApp\UniversityApp\bin\Debug\UniversityApp.exe.config
+H:\20-Oct-Practice\UniversityApp\UniversityApp\obj\Debug\UniversityApp.CourseUI.resources
+H:\20-Oct-Practice\UniversityApp\UniversityApp\obj\Debug\UniversityApp.EnrollmentUI.resources
+H:\20-Oct-Practice\UniversityApp\UniversityApp\obj\Debug\UniversityApp.Properties.Resources.resources
+H:\20-Oct-Practice\UniversityApp\UniversityApp\obj\Debug\UniversityApp.StudentUI.resources
+H:\20-Oct-Practice\UniversityApp\UniversityApp\obj\Debug\UniversityApp.csproj.GenerateResource.Cache
+H:\20-Oct-Practice\UniversityApp\UniversityApp\bin\Debug\UniversityApp.exe
+H:\20-Oct-Practice\UniversityApp\UniversityApp\bin\Debug\UniversityApp.pdb
+H:\20-Oct-Practice\UniversityApp\UniversityApp\obj\Debug\UniversityApp.exe
+H:\20-Oct-Practice\UniversityApp\UniversityApp\obj\Debug\UniversityApp.pdb
+H:\20-Oct-Practice\UniversityApp\UniversityApp\obj\Debug\UniversityApp.TheMainUI.resources
+H:\20-Oct-Practice\UniversityApp\UniversityApp\obj\Debug\UniversityApp.csprojResolveAssemblyReference.cache
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\bin\Debug\UniversityApp.exe.config
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.exe
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.pdb
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\bin\Debug\UniversityApp.exe
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\bin\Debug\UniversityApp.pdb
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.CourseUI.resources
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.EnrollmentUI.resources
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.TheMainUI.resources
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.Properties.Resources.resources
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.StudentUI.resources
+E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.csproj.GenerateResource.Cache
