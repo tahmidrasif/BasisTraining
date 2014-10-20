@@ -72,33 +72,23 @@ namespace BootCampApp.DataAccessLayer.GateWay
                 }
             }
 
-            //else
-            //{
-            //    aConnection.Close();
-
-            //    string query2 = "SELECT * FROM  t_Course";
-
-            //    aConnection.Open();
-
-            //    aCommand = new SqlCommand(query2, aConnection);
-
-            //    aReader = aCommand.ExecuteReader();
-            //    if (aReader.HasRows)
-            //    {
-            //        while (aReader.Read())
-            //        {
-            //            Course aCourse = new Course();
-            //            aCourse.CourseId = (int)aReader[0];
-            //            aCourse.CourseTitle = aReader[1].ToString();
-            //            aCourse.CourseName = aReader[2].ToString();
-            //            aCourseEnrollment.Courses.Add(aCourse);
-            //        }
-            //    }
-
-            //}
-
             aConnection.Close();
             return aCourseEnrollment;
+        }
+
+
+        public int InsertIntoDatabase(int courseId,DateTime aDateTime,CourseEnrollment aCourseEnrollment)
+        {
+            string studentRegNo = aCourseEnrollment.AStudent.RegNo;
+
+            string query = string.Format("INSERT INTO t_StudentEnroll VALUES ('{0}','{1}','{2}')", studentRegNo, courseId, aDateTime);
+
+            aConnection = new SqlConnection(connection);
+            aConnection.Open();
+
+            SqlCommand aCommand = new SqlCommand(query, aConnection);
+            int isAffected = aCommand.ExecuteNonQuery();
+            return isAffected;
         }
 
         public List<Course> EnrollmentGridevieDataPicker(string regNo)
@@ -128,5 +118,32 @@ namespace BootCampApp.DataAccessLayer.GateWay
             aConnection.Close();
             return new List<Course>();
         }
+
+        public bool CourseAlreadyTaken(int courseId, CourseEnrollment courseEnrollment)
+        {
+            string query = "SELECT * FROM IsCourseAlreadyTakenView WHERE Student_RegNo='" + aCourseEnrollment.AStudent.RegNo + "'";
+            aConnection = new SqlConnection(connection);
+            aConnection.Open();
+
+            aCommand = new SqlCommand(query, aConnection);
+
+            aReader = aCommand.ExecuteReader();
+            if (aReader.HasRows)
+            {
+                while (aReader.Read())
+                {
+                    int tempCourseId = (int)aReader[0];
+                    if (tempCourseId == courseId)
+                    {
+                        return false;
+                    }
+                }
+
+            }
+
+            aConnection.Close();
+            return true;
+        }
     }
+
 }

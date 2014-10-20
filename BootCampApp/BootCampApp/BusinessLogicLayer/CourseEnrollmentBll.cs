@@ -18,16 +18,10 @@ namespace BootCampApp.BusinessLogicLayer
         private CourseEnrollment aCourseEnrollment;
         CourseEnrollmentGateway aCourseEnrollmentGateway=new CourseEnrollmentGateway();
 
-        private string connection = ConfigurationManager.ConnectionStrings["BootCamp"].ConnectionString;
-        private SqlCommand aCommand;
-        private SqlDataReader aReader;
-        private SqlConnection aConnection;
+        
 
 
-        public CourseEnrollmentBll()
-        {
-            
-        }
+       
         public CourseEnrollment CheckRegNo(string regNo)
         {
             aCourseEnrollment = new CourseEnrollment();
@@ -44,53 +38,29 @@ namespace BootCampApp.BusinessLogicLayer
 
         public string InsertIntoDatabase(int courseId, DateTime aDateTime, CourseEnrollment courseEnrollment)
         {
-            if (CourseAlreadyTaken(courseId, aCourseEnrollment))
+
+            if (courseEnrollment.AStudent.Name!=null&&courseEnrollment.AStudent.RegNo!=null&&courseEnrollment.AStudent.Email!=null)
             {
-                string studentRegNo = aCourseEnrollment.AStudent.RegNo;
-
-                string query = string.Format("INSERT INTO t_StudentEnroll VALUES ('{0}','{1}','{2}')", studentRegNo, courseId, aDateTime);
-
-                aConnection = new SqlConnection(connection);
-                aConnection.Open();
-
-                SqlCommand aCommand = new SqlCommand(query, aConnection);
-
-                int isAffected = aCommand.ExecuteNonQuery();
-                aConnection.Close();
-                if (isAffected > 0)
+                if (CourseAlreadyTaken(courseId, aCourseEnrollment))
                 {
-                    return "Successfully Entered";
+                  int isAffected = aCourseEnrollmentGateway.InsertIntoDatabase(courseId, aDateTime, aCourseEnrollment);
+                    
+                    if (isAffected > 0)
+                    {
+                        return "Successfully Entered";
+                    }
+                    //return isAffected;
+                    return "Failed to Insert";
                 }
-                //return isAffected;
-                return "Failed to Insert";
+                return "This Course is Already Taken"; 
             }
-            return "This Course is Already Taken";
+            return "Fill Up All Fields";
         }
 
         private bool CourseAlreadyTaken(int courseId, CourseEnrollment courseEnrollment)
         {
-            string query = "SELECT * FROM IsCourseAlreadyTakenView WHERE Student_RegNo='" + aCourseEnrollment.AStudent.RegNo + "'";
-            aConnection = new SqlConnection(connection);
-            aConnection.Open();
-
-            aCommand = new SqlCommand(query, aConnection);
-
-            aReader = aCommand.ExecuteReader();
-            if (aReader.HasRows)
-            {
-                while (aReader.Read())
-                {
-                    int tempCourseId = (int)aReader[0];
-                    if (tempCourseId == courseId)
-                    {
-                        return false;
-                    }
-                }
-
-            }
-
-            aConnection.Close();
-            return true;
+            bool result = aCourseEnrollmentGateway.CourseAlreadyTaken(courseId, courseEnrollment);
+            return result;
         }
     }
 }

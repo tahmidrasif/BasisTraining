@@ -21,14 +21,14 @@ C:\Users\Rasif\Desktop\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterfa
 C:\Users\Rasif\Desktop\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.ResultSheetUI.resources
 C:\Users\Rasif\Desktop\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csproj.GenerateResource.Cache
 C:\Users\Rasif\Desktop\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csprojResolveAssemblyReference.cache
-E:\C# Practice\BootCampApp\BootCampApp\bin\Debug\BootCampApp.exe.config
-E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.exe
-E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.pdb
-E:\C# Practice\BootCampApp\BootCampApp\bin\Debug\BootCampApp.exe
-E:\C# Practice\BootCampApp\BootCampApp\bin\Debug\BootCampApp.pdb
-E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csprojResolveAssemblyReference.cache
-E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.Properties.Resources.resources
-E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.CourseEnrollmentUI.resources
-E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.ResultEntryUI.resources
-E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.ResultSheetUI.resources
-E:\C# Practice\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csproj.GenerateResource.Cache
+E:\BootCampApp\BootCampApp\bin\Debug\BootCampApp.exe.config
+E:\BootCampApp\BootCampApp\obj\Debug\BootCampApp.exe
+E:\BootCampApp\BootCampApp\obj\Debug\BootCampApp.pdb
+E:\BootCampApp\BootCampApp\bin\Debug\BootCampApp.exe
+E:\BootCampApp\BootCampApp\bin\Debug\BootCampApp.pdb
+E:\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csprojResolveAssemblyReference.cache
+E:\BootCampApp\BootCampApp\obj\Debug\BootCampApp.Properties.Resources.resources
+E:\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.CourseEnrollmentUI.resources
+E:\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.ResultEntryUI.resources
+E:\BootCampApp\BootCampApp\obj\Debug\BootCampApp.UserInterface.ResultSheetUI.resources
+E:\BootCampApp\BootCampApp\obj\Debug\BootCampApp.csproj.GenerateResource.Cache

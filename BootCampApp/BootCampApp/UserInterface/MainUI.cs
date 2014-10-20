@@ -1,10 +1,4 @@
 ﻿using System.Windows.Forms;
-/*
- * 
- * 
- * This is Version 1.1 of StudentInfoApp With Layer Architechture bug fix GetAllCourseInformation in ComboBox
- *  
- */
 
 namespace BootCampApp.UserInterface
 {
