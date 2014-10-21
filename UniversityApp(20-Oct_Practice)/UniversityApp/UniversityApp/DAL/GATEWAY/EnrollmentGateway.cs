@@ -45,5 +45,21 @@ namespace UniversityApp.DAL.GATEWAY
             return new Enrollment();
 
         }
+
+        public int InsertIntoDatabase(string courseId, string regNo, DateTime aDateTime)
+        {
+            //string studentRegNo = aCourseEnrollment.AStudent.RegNo;
+
+            string query = string.Format("INSERT INTO Enrollment VALUES ('{0}','{1}','{2}')", courseId, regNo, aDateTime);
+
+            aConnection = new SqlConnection(connection);
+            aConnection.Open();
+
+            SqlCommand aCommand = new SqlCommand(query, aConnection);
+            int isAffected = aCommand.ExecuteNonQuery();
+            return isAffected;
+
+          
+        }
     }
 }

@@ -21,3 +21,15 @@ E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\
 E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.Properties.Resources.resources
 E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.StudentUI.resources
 E:\C# Practice\UniversityApp(20-Ocr-2014)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.csproj.GenerateResource.Cache
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\bin\Debug\UniversityApp.exe.config
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.exe
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.pdb
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\bin\Debug\UniversityApp.exe
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\bin\Debug\UniversityApp.pdb
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.csprojResolveAssemblyReference.cache
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.CourseUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.EnrollmentUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.TheMainUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.Properties.Resources.resources
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.StudentUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\UniversityApp(20-Oct_Practice)\UniversityApp\UniversityApp\obj\Debug\UniversityApp.csproj.GenerateResource.Cache

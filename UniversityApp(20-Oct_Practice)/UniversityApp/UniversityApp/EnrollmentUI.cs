@@ -33,10 +33,15 @@ namespace UniversityApp
 
         private void enrollButton_Click(object sender, EventArgs e)
         {
-            aEnrollmentBll = new EnrollmentBll();
+            string courseId = courseComboBox.SelectedValue.ToString();
+            string regNo= regNoComboBox.SelectedValue.ToString();
+            DateTime aDateTime = new DateTime();
+            aDateTime = enrollmentDateTimePicker.Value.Date;
 
-          //  string msg = aEnrollmentBll.SaveIntoDataBase(aStudent);
-          //  MessageBox.Show(msg);
+            string msg = aEnrollmentBll.InsertIntoDatabase(courseId,regNo ,aDateTime);
+            MessageBox.Show(msg);
+            //enrolledCoursesDataGridView.DataSource = aCourseEnrollmentBll.EnrollmentGridevieDataPicker(aCourseEnrollment.AStudent.RegNo);
+
         }
 
         private void FillComboBox(List<Student> students,List<Course> courses)
@@ -50,6 +55,7 @@ namespace UniversityApp
             courseComboBox.ValueMember = "Code";
 
             regNoComboBox.DisplayMember = "RegistationNumber";
+            regNoComboBox.ValueMember = "RegistationNumber";
         }
 
     }
