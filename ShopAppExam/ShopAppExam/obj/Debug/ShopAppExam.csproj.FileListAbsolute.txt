@@ -1,0 +1,9 @@
+H:\21-Oct-2014_Practice\ShopAppExam\ShopAppExam\bin\Debug\ShopAppExam.exe.config
+H:\21-Oct-2014_Practice\ShopAppExam\ShopAppExam\bin\Debug\ShopAppExam.exe
+H:\21-Oct-2014_Practice\ShopAppExam\ShopAppExam\bin\Debug\ShopAppExam.pdb
+H:\21-Oct-2014_Practice\ShopAppExam\ShopAppExam\obj\Debug\ShopAppExam.csprojResolveAssemblyReference.cache
+H:\21-Oct-2014_Practice\ShopAppExam\ShopAppExam\obj\Debug\ShopAppExam.ShopUI.resources
+H:\21-Oct-2014_Practice\ShopAppExam\ShopAppExam\obj\Debug\ShopAppExam.Properties.Resources.resources
+H:\21-Oct-2014_Practice\ShopAppExam\ShopAppExam\obj\Debug\ShopAppExam.csproj.GenerateResource.Cache
+H:\21-Oct-2014_Practice\ShopAppExam\ShopAppExam\obj\Debug\ShopAppExam.exe
+H:\21-Oct-2014_Practice\ShopAppExam\ShopAppExam\obj\Debug\ShopAppExam.pdb
