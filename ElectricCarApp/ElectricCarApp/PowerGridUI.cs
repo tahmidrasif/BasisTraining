@@ -26,7 +26,7 @@ namespace ElectricCarApp
             
             aVehicle.name = vehicleNameTextBox.Text;
             aVehicle.regNo = regNoTextBox.Text;
-            aVehicle.type = vehicleTypeTextBox.Text;
+        
             aVehicle.stateOfCharge = Convert.ToDouble(stateofChargeTextBox.Text);
             aVehicle.chargingTime = Convert.ToDouble(chargingTimeTextBox.Text);
             //bool available = aGrid.CheckIfNotInTheQueue(aVehicle);
@@ -50,7 +50,7 @@ namespace ElectricCarApp
         {
             ListViewItem anItem=new ListViewItem();
             anItem.Text = aVehicle.name;
-            anItem.SubItems.Add(aVehicle.type);
+
             anItem.SubItems.Add(aVehicle.regNo);
             anItem.SubItems.Add(aVehicle.stateOfCharge.ToString());
             anItem.SubItems.Add(aVehicle.timeToRecharge.ToString());

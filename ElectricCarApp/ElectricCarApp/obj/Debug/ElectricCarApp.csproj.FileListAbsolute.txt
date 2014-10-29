@@ -18,3 +18,17 @@ E:\C# Practice\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.PowerGridU
 E:\C# Practice\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.MainUI.resources
 E:\C# Practice\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.VehicleUI.resources
 E:\C# Practice\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.csprojResolveAssemblyReference.cache
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\bin\Debug\ElectricCarApp.exe.config
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.exe
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.pdb
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\bin\Debug\ElectricCarApp.exe
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\bin\Debug\ElectricCarApp.pdb
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.csprojResolveAssemblyReference.cache
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.MainUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.PowerGridUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.Properties.Resources.resources
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.VehicleUI.resources
+E:\BasisGit\BasisTraining\BasisTraining\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.csproj.GenerateResource.Cache
+C:\Users\Rasif\Desktop\ElectricCarApp\ElectricCarApp\bin\Debug\ElectricCarApp.exe.config
+C:\Users\Rasif\Desktop\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.exe
+C:\Users\Rasif\Desktop\ElectricCarApp\ElectricCarApp\obj\Debug\ElectricCarApp.pdb

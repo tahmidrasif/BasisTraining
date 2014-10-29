@@ -38,14 +38,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.registryButton = new System.Windows.Forms.Button();
+            this.chargingTimeTextBox = new System.Windows.Forms.TextBox();
             this.regNoTextBox = new System.Windows.Forms.TextBox();
-            this.vehicleTypeTextBox = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.vehicleNameTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.chargingTimeTextBox = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -124,22 +122,20 @@
             this.groupBox1.Controls.Add(this.registryButton);
             this.groupBox1.Controls.Add(this.chargingTimeTextBox);
             this.groupBox1.Controls.Add(this.regNoTextBox);
-            this.groupBox1.Controls.Add(this.vehicleTypeTextBox);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.vehicleNameTextBox);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Location = new System.Drawing.Point(308, 18);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(419, 313);
+            this.groupBox1.Size = new System.Drawing.Size(419, 268);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Vehicle Information";
             // 
             // registryButton
             // 
-            this.registryButton.Location = new System.Drawing.Point(178, 271);
+            this.registryButton.Location = new System.Drawing.Point(179, 224);
             this.registryButton.Name = "registryButton";
             this.registryButton.Size = new System.Drawing.Size(75, 23);
             this.registryButton.TabIndex = 6;
@@ -147,19 +143,28 @@
             this.registryButton.UseVisualStyleBackColor = true;
             this.registryButton.Click += new System.EventHandler(this.registryButton_Click);
             // 
+            // chargingTimeTextBox
+            // 
+            this.chargingTimeTextBox.Location = new System.Drawing.Point(26, 160);
+            this.chargingTimeTextBox.Name = "chargingTimeTextBox";
+            this.chargingTimeTextBox.Size = new System.Drawing.Size(345, 20);
+            this.chargingTimeTextBox.TabIndex = 1;
+            // 
             // regNoTextBox
             // 
-            this.regNoTextBox.Location = new System.Drawing.Point(30, 160);
+            this.regNoTextBox.Location = new System.Drawing.Point(26, 105);
             this.regNoTextBox.Name = "regNoTextBox";
             this.regNoTextBox.Size = new System.Drawing.Size(345, 20);
             this.regNoTextBox.TabIndex = 1;
             // 
-            // vehicleTypeTextBox
+            // label7
             // 
-            this.vehicleTypeTextBox.Location = new System.Drawing.Point(30, 105);
-            this.vehicleTypeTextBox.Name = "vehicleTypeTextBox";
-            this.vehicleTypeTextBox.Size = new System.Drawing.Size(345, 20);
-            this.vehicleTypeTextBox.TabIndex = 1;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(23, 136);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(197, 13);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Default Charging Time Per Kilowatt Hour";
             // 
             // vehicleNameTextBox
             // 
@@ -171,20 +176,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(27, 136);
+            this.label4.Location = new System.Drawing.Point(23, 81);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 13);
             this.label4.TabIndex = 0;
             this.label4.Text = "Registration Number";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(27, 81);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Vehicle Type";
             // 
             // label6
             // 
@@ -194,22 +190,6 @@
             this.label6.Size = new System.Drawing.Size(73, 13);
             this.label6.TabIndex = 0;
             this.label6.Text = "Vehicle Name";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(27, 191);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(171, 13);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Default Charging Time Per Percent";
-            // 
-            // chargingTimeTextBox
-            // 
-            this.chargingTimeTextBox.Location = new System.Drawing.Point(30, 215);
-            this.chargingTimeTextBox.Name = "chargingTimeTextBox";
-            this.chargingTimeTextBox.Size = new System.Drawing.Size(345, 20);
-            this.chargingTimeTextBox.TabIndex = 1;
             // 
             // VehicleUI
             // 
@@ -246,10 +226,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox regNoTextBox;
-        private System.Windows.Forms.TextBox vehicleTypeTextBox;
         private System.Windows.Forms.TextBox vehicleNameTextBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button registryButton;
         private System.Windows.Forms.TextBox chargingTimeTextBox;

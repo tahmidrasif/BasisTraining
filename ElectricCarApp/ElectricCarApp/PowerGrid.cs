@@ -12,7 +12,7 @@ namespace ElectricCarApp
 
         public Queue<Vehicle> vehicles = new Queue<Vehicle>();
 
-        public double sellingCostPerUnit=10;
+        public double sellingCostPerUnit=15;
 
 
 

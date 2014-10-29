@@ -27,13 +27,12 @@ namespace ElectricCarApp
             DialogResult dr = MessageBox.Show(msg,"", MessageBoxButtons.YesNoCancel);
             if (dr == DialogResult.Yes)
             {
-                if (aVehicle.timeToDischarge > .1)
-                {
-                   double money = aVehicle.CalculateMoneyToIncome();
+                
+                   double money = aVehicle.CalculateMoneyToIncome(stateOfCharge);
                    incomeTextBox.Text = money.ToString();
                     stateOfChargeTextBox.Text = aVehicle.MIN_CHARGE.ToString();
                     dischargeButton.Enabled = false;
-                }
+
                 
             }
            
@@ -43,7 +42,7 @@ namespace ElectricCarApp
         {
             aVehicle.name = vehicleNameTextBox.Text;
             aVehicle.regNo = regNoTextBox.Text;
-            aVehicle.type = vehicleTypeTextBox.Text;
+           
             aVehicle.chargingTime = Convert.ToDouble(chargingTimeTextBox.Text);
             dischargeButton.Enabled = true;
             rechargeButton.Enabled = true;
