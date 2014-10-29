@@ -21,28 +21,36 @@ namespace UniversityLayerApp.BLL
         {
             if (aStudent.StudentName != string.Empty || aStudent.Email != string.Empty ||aStudent.Address != string.Empty)
             {
-                if (HasthisEmailValid(aStudent))
-                {
-                    int isAffected = aStudentGateway.Save(aStudent);
-                    if (isAffected > 0)
-                    {
-                        return @"Insetion is successful";
-                    }
-                    else
-                    {
-                        return "Data is not Inserted";
-                    }
-                
-                }
-                else
-                {
-                    return "This Email Id Is already Registerd";
-                }
-                
+                return ThisEmailIdIsAlreadyRegisterd(aStudent);
             }
             else
             {
                 return "Please Fill up Fields";
+            }
+        }
+
+        private string ThisEmailIdIsAlreadyRegisterd(Student aStudent)
+        {
+            if (HasthisEmailValid(aStudent))
+            {
+                return DataInsert(aStudent);
+            }
+            else
+            {
+                return "This Email Id Is already Registerd";
+            }
+        }
+
+        private string DataInsert(Student aStudent)
+        {
+            int isAffected = aStudentGateway.Save(aStudent);
+            if (isAffected > 0)
+            {
+                return @"Insetion is successful";
+            }
+            else
+            {
+                return "Data is not Inserted";
             }
         }
 

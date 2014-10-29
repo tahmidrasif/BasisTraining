@@ -46,31 +46,39 @@
   <ItemGroup>
     <Compile Include="BLL\DepertmentBLL.cs" />
     <Compile Include="BLL\StudentBLL.cs" />
-    <Compile Include="DepertmentEntryUI.cs">
+    <Compile Include="BLL\StudentDepertmentViewBll.cs" />
+    <Compile Include="DLL\DAO\VIEW\StudentDeperetmentInfo.cs" />
+    <Compile Include="DLL\GATEWAY\StudentDepertmentGateway.cs" />
+    <Compile Include="UI\DepertmentEntryUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DepertmentEntryUI.designer.cs">
+    <Compile Include="UI\DepertmentEntryUI.designer.cs">
       <DependentUpon>DepertmentEntryUI.cs</DependentUpon>
     </Compile>
     <Compile Include="DLL\DAO\Depertment.cs" />
     <Compile Include="DLL\DAO\Student.cs" />
     <Compile Include="DLL\GATEWAY\DepertmentGateway.cs" />
     <Compile Include="DLL\GATEWAY\StudentGateway.cs" />
-    <Compile Include="UniversityEntryUI.cs">
+    <Compile Include="UI\UniversityEntryUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UniversityEntryUI.Designer.cs">
+    <Compile Include="UI\UniversityEntryUI.Designer.cs">
       <DependentUpon>UniversityEntryUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentEntryUI.cs">
+    <Compile Include="UI\StudentEntryUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentEntryUI.Designer.cs">
+    <Compile Include="UI\StudentEntryUI.Designer.cs">
       <DependentUpon>StudentEntryUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DepertmentEntryUI.resx">
+    <Compile Include="UniversiyDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UniversiyDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\DepertmentEntryUI.resx">
       <DependentUpon>DepertmentEntryUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -82,10 +90,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UniversityEntryUI.resx">
+    <EmbeddedResource Include="UI\UniversityEntryUI.resx">
       <DependentUpon>UniversityEntryUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StudentEntryUI.resx">
+    <EmbeddedResource Include="UI\StudentEntryUI.resx">
       <DependentUpon>StudentEntryUI.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -97,6 +105,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="UniversiyDatabaseDataSet.xsc">
+      <DependentUpon>UniversiyDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UniversiyDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UniversiyDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UniversiyDatabaseDataSet.xss">
+      <DependentUpon>UniversiyDatabaseDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

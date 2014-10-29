@@ -24,7 +24,7 @@ namespace UniversityLayerApp.DLL.GATEWAY
         public int Save(Student aStudent)
         {
 
-            string query = string.Format("INSERT INTO StudentInfo VALUES ('{0}','{1}','{2}')", aStudent.StudentName,aStudent.Email,aStudent.Address);
+            string query = string.Format("INSERT INTO StudentInfo VALUES ('{0}','{1}','{2}',{3})", aStudent.StudentName,aStudent.Email,aStudent.Address,aStudent.DepertmentId);
 
             //*****Database Operation Starts********
             connection.Open();
@@ -85,6 +85,7 @@ namespace UniversityLayerApp.DLL.GATEWAY
                     aStudent.StudentName = aReader[1].ToString();
                     aStudent.Email = aReader[2].ToString();
                     aStudent.Address = aReader[3].ToString();
+                    aStudent.DepertmentId = (int)aReader[4];
                     students.Add(aStudent); 
                 }
             }

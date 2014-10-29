@@ -18,3 +18,14 @@ E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\ob
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\DepertmentApp.DepertmentEntryUI.resources
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.StudentEntryUI.resources
 E:\BasisGit\BasisTraining\BasisTraining\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.csprojResolveAssemblyReference.cache
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.exe.config
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.exe
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.pdb
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.exe
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\bin\Debug\UniversityLayerApp.pdb
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\obj\Debug\DepertmentApp.DepertmentEntryUI.resources
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.Properties.Resources.resources
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.UniversityEntryUI.resources
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.StudentEntryUI.resources
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.csproj.GenerateResource.Cache
+C:\Users\Rasif\Desktop\UniversityLayerApp\UniversityLayerApp\obj\Debug\UniversityLayerApp.csprojResolveAssemblyReference.cache
